@@ -173,6 +173,12 @@ bar {
         status_command i3status
 }
 
+gaps inner 15
+smart_gaps on
+
+default_border none
+hide_edge_borders none
+
 ####################################################################################
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
