@@ -46,7 +46,7 @@ vim /etc/sudoers
 
 pacman -S xorg-server xorg-xinit
 pacman -S nvidia
-pacman -S i3-gaps i3status rxvt-unicode dmenu noto-fonts noto-fonts-cjk noto-fonts-emoji
+install i3
 startx
 
 // put this into ~/.zprofile after you have zsh

@@ -113,3 +113,5 @@ export BROWSER="vivaldi-stable"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+cat ~/.cache/wal/sequences
