@@ -2,6 +2,11 @@ theme = "plain"
 icons = "awesome"
 
 [[block]]
+block = "music"
+player = "spotify"
+buttons = ["play", "next"]
+
+[[block]]
 block = "disk_space"
 path = "/"
 alias = "/"
