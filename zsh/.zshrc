@@ -114,4 +114,7 @@ export BROWSER="vivaldi-stable"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+aur () { git clone https://aur.archlinux.org/$1.git ~/aur/$1; }
+
+
 cat ~/.cache/wal/sequences
