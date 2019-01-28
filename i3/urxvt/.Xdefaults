@@ -2,5 +2,5 @@ URxvt.saveLines: 1000
 URxvt.scrollBar: false
 URxvt.urlLauncher: vivaldi-stable
 urxvt*depth: 32
-urxvt*transparent:true
-urxvt*shading:30
+#urxvt*transparent:true
+#urxvt*shading:30
