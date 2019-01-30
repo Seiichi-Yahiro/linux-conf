@@ -10,4 +10,19 @@ aur i3status-rust-git
 cp config ~/.config/i3/
 cp status.toml ~/.config/i3/ 
 
+// Japanese input
+sudo pacman -S uim
+aur mozc
+aur uim-mozc
+
+Warning: You must run the following command whenever you upgrade or (re-)install uim.
+sudo uim-module-manager --register mozc
+
+// Add to ~/.xinitrc
+export GTK_IM_MODULE='uim'
+export QT_IM_MODULE='uim'
+uim-xim &
+export XMODIFIERS='@im=uim'
+
+// No Audio
 run alsamixer and unmute and increase the master volume
