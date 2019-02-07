@@ -163,5 +163,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'terryma/vim-multiple-cursors'
 Plug 'https://tpope.io/vim/surround.git'
 Plug 'scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
