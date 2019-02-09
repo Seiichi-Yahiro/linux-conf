@@ -156,7 +156,19 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
-map <C-o> :NERDTreeToggle<CR> 
+
+
+" Custom key mappings
+nnoremap tn :tabnew<Space>
+nnoremap tk :tabnext<CR>
+nnoremap tj :tabprev<CR>
+nnoremap th :tabfirst<CR>
+nnoremap tl :tablast<CR>
+
+let mapleader = "\<Space>"
+map <leader>t :NERDTreeToggle<CR> 
+nnoremap <leader>av :tabnew ~/.vimrc<CR>
+nnoremap <leader>rv :source ~/.vimrc<CR>
 "------------------------------------------------------------
 
 call plug#begin('~/.vim/plugged')
