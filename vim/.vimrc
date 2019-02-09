@@ -170,12 +170,27 @@ map <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>av :tabnew ~/.vimrc<CR>
 nnoremap <leader>rv :source ~/.vimrc<CR>
 "------------------------------------------------------------
+" Plugins
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'terryma/vim-multiple-cursors'
 Plug 'https://tpope.io/vim/surround.git'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'rust-lang/rust.vim'
 Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
+
+" Plugin settings
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
