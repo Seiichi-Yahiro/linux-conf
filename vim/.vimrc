@@ -180,6 +180,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'rust-lang/rust.vim'
 Plug 'Valloric/YouCompleteMe'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
