@@ -159,6 +159,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 
 " Custom key mappings
+cmap w!! w !sudo tee > /dev/null %
+
 nnoremap tn :tabnew<Space>
 nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
