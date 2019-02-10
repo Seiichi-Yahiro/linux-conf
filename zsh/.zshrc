@@ -79,6 +79,7 @@ plugins=(
   urltools
   web-search
   yarn
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
