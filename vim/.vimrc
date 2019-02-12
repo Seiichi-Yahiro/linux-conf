@@ -168,6 +168,8 @@ nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
 
 let mapleader = "\<Space>"
+nnoremap <leader>o o<Esc>
+nnoremap <leader>O O<Esc>
 map <leader>t :NERDTreeToggle<CR> 
 nnoremap <leader>av :tabnew ~/.vimrc<CR>
 nnoremap <leader>rv :source ~/.vimrc<CR>
