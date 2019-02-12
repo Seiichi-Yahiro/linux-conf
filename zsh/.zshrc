@@ -80,6 +80,7 @@ plugins=(
   web-search
   yarn
   vi-mode
+  history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
