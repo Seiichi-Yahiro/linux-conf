@@ -22,7 +22,7 @@ pacman -S networkmanager
 systemctl enable NetworkManager
 
 pacman -S grub efibootmgr
-grub-install --target=x86_64-efi --efi-directory=/boot //grub-install --target=i386-pc /dev/?? //disk (not partition) where boot is e.g. /sda1 = boot then /sda
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=arch_grub //grub-install --target=i386-pc /dev/?? //disk (not partition) where boot is e.g. /sda1 = boot then /sda
 grub-mkconfig -o /boot/grub/grub.cfg
 
 vim /etc/hostname // just put your prefered pc name here
