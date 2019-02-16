@@ -38,7 +38,7 @@ exit
 umount -R /mnt
 
 
-adduser julian -m -g wheel
+useradd julian -m -g wheel
 vim /etc/sudoers
 
 //nmcli dev wifi list // list wifi signals
