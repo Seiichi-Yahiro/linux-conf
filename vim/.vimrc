@@ -186,6 +186,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'rust-lang/rust.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'kien/ctrlp.vim'
+Plug 'christoomey/vim-system-copy'
 
 call plug#end()
 
