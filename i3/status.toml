@@ -8,6 +8,7 @@ buttons = ["play", "next"]
 
 [[block]]
 block = "sound"
+name = "'Headset',1"
 
 [[block]]
 block = "disk_space"
@@ -39,11 +40,11 @@ block = "load"
 interval = 1
 format = "{1m}"
 
-[[block]]
-block = "battery"
-upower = true
-device = "BAT1"
-format = "{percentage}% {time}"
+#[[block]]
+#block = "battery"
+#upower = true
+#device = "BAT1"
+#format = "{percentage}% {time}"
 
 [[block]]
 block = "time"
