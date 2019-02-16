@@ -187,6 +187,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'kien/ctrlp.vim'
 Plug 'christoomey/vim-system-copy'
+Plug 'michaeljsmith/vim-indent-object'
 
 call plug#end()
 
