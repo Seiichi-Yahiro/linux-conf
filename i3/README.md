@@ -26,3 +26,5 @@ export XMODIFIERS='@im=uim'
 
 // No Audio
 run alsamixer and unmute and increase the master volume
+
+start vivaldi from terminial to see what codecs are missing usually chromium-codecs-ffmpeg-extra
